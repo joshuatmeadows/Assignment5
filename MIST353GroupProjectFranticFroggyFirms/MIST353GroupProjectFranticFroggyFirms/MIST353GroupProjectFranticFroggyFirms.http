@@ -1,0 +1,6 @@
+@MIST353GroupProjectFranticFroggyFirms_HostAddress = http://localhost:5105
+
+GET {{MIST353GroupProjectFranticFroggyFirms_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
