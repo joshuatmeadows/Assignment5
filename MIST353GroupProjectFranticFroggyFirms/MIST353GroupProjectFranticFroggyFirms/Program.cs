@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using MIST353GroupProjectFranticFroggyFirms.DATA;
-using MIST353GroupProjectFranticFroggyFirms.Repositiories;
+using MIST353GroupProjectFranticFroggyFirms.Data;
+using MIST353GroupProjectFranticFroggyFirms.Repositories;
 
 
 var builder = WebApplication.CreateBuilder(args);
