@@ -5,8 +5,14 @@ namespace MIST353GroupProjectFranticFroggyFirms.Repositories
 {
     public interface IEllaAPI
     {
-        public Task<List<Hotel>> spHotelSearchByRadius(decimal latitude, decimal longitude);
-        public Task<List<RoomAvail>> spRoomGetAvailabilityByDateRange(DateTime StartDate, DateTime EndDate);
+        public Task<List<Hotel>> spHotelSearchByRadius(decimal latitude, decimal longitude)
+        {
+            throw new NotImplementedException();
+        }
+        public Task<List<RoomAvail>> spRoomGetAvailabilityByDateRange(DateTime StartDate, DateTime EndDate)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }

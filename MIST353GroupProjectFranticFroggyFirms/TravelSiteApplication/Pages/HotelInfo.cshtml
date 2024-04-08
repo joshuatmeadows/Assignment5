@@ -1,0 +1,42 @@
+﻿@page
+@model TravelSiteApplication.Pages.HotelInfoModel
+@{
+    var CheckIn = HttpContext.Request.Query["StartDate"];
+    var CheckOut = HttpContext.Request.Query["EndDate"];
+
+}
+
+<h1>Hotel Information</h1>
+<!--this is where the search page will bring u too
+ some basic info about the hotel will go here -->
+
+
+
+
+
+<!-- allows u to check room availability by check in and check out date -->
+
+<script type="module">
+    displayRoomAvailResults(@CheckIn, @CheckOut);
+</script>
+
+<form id="roomAvailForm" action="/searchResults">
+    <i class="fa-solid fa-location-arrow"></i>
+    <div id="locInp" class="form-control">Room Availability?</div>
+    <label for="startDateInp">Start Date</label>
+    <input type="date" id="startDateInp" name="checkIn" />
+    <label for="endDateInp" class="form-label">End Date</label>
+    <input type="date" id="endDateInp" name="checkOut" />
+    <input type="submit" id="submitBtn" value="Search" class="btn btn-primary" />
+</form>
+
+<div id="roomAvailabilityResults"></div>
+<div id="results">
+</div>
+
+<!-- button to bring to ratings/review page -->
+<a href="/RatingPage" class="btn btn-secondary">View Ratings & Reviews</a>
+
+
+
+

@@ -22,8 +22,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/MISTUser/Documents/GitHub/Assignment5/MIST353GroupProjectFranticFroggyFirms/TravelSiteApplication/Pages/ClimatePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpbWF0ZVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MISTUser/Documents/GitHub/Assignment5/MIST353GroupProjectFranticFroggyFirms/TravelSiteApplication/Pages/Destinations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVzdGluYXRpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/MISTUser/Documents/GitHub/Assignment5/MIST353GroupProjectFranticFroggyFirms/TravelSiteApplication/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MISTUser/Documents/GitHub/Assignment5/MIST353GroupProjectFranticFroggyFirms/TravelSiteApplication/Pages/HotelInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG90ZWxJbmZvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/MISTUser/Documents/GitHub/Assignment5/MIST353GroupProjectFranticFroggyFirms/TravelSiteApplication/Pages/Index.cshtml]
@@ -32,6 +44,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/MISTUser/Documents/GitHub/Assignment5/MIST353GroupProjectFranticFroggyFirms/TravelSiteApplication/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MISTUser/Documents/GitHub/Assignment5/MIST353GroupProjectFranticFroggyFirms/TravelSiteApplication/Pages/RatingPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmF0aW5nUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MISTUser/Documents/GitHub/Assignment5/MIST353GroupProjectFranticFroggyFirms/TravelSiteApplication/Pages/SearchPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/MISTUser/Documents/GitHub/Assignment5/MIST353GroupProjectFranticFroggyFirms/TravelSiteApplication/Pages/Shared/_LoginPartial.cshtml]
