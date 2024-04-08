@@ -14,9 +14,9 @@ namespace MIST353GroupProjectFranticFroggyFirms.Controllers
             _hotelService = hotelService;
         }
         [HttpGet("{hotelid}")]
-        public async Task<ActionResult<List<HotelReview>>> GetHotelReview(int hotelid)
+        public async Task<ActionResult<List<HotelReviewController>>> GetHotelReview(int hotelid)
         {
-            var HotelReview = await _HotelService.GetHotelReview(hotelid);
+            var HotelReview = await _hotelService.GetHotelReview(hotelid);
             return HotelReview;
         }
 

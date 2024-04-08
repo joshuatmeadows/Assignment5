@@ -6,6 +6,6 @@ namespace MIST353GroupProjectFranticFroggyFirms.Repositories
 {
     public class IRatingService
     {
-        public Task<List<Hotel>> ReturnRatings(int hotelid);
+        public Task<List<HotelRatings>> ReturnRatings(int hotelid);
     }
 }

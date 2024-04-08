@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MIST353GroupProjectFranticFroggyFirms", "MIST353GroupProjectFranticFroggyFirms\MIST353GroupProjectFranticFroggyFirms.csproj", "{90B1BB65-7E5C-4045-87DC-60F9ED4966A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelSite", "TravelSite\TravelSite.csproj", "{610EE1C1-78C2-49F7-A013-6584C6678F34}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelSiteApplication", "TravelSiteApplication\TravelSiteApplication.csproj", "{30737078-1390-4980-B310-43F74DF5B39D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{90B1BB65-7E5C-4045-87DC-60F9ED4966A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90B1BB65-7E5C-4045-87DC-60F9ED4966A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90B1BB65-7E5C-4045-87DC-60F9ED4966A1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{610EE1C1-78C2-49F7-A013-6584C6678F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{610EE1C1-78C2-49F7-A013-6584C6678F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{610EE1C1-78C2-49F7-A013-6584C6678F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{610EE1C1-78C2-49F7-A013-6584C6678F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30737078-1390-4980-B310-43F74DF5B39D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30737078-1390-4980-B310-43F74DF5B39D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30737078-1390-4980-B310-43F74DF5B39D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30737078-1390-4980-B310-43F74DF5B39D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

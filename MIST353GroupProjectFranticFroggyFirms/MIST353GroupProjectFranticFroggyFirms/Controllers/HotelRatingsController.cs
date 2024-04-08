@@ -17,10 +17,7 @@ namespace MIST353GroupProjectFranticFroggyFirms.Controllers
         public async Task<ActionResult<List<HotelRatings>>> ReturnRatings(int hotelid)
         {
             var hotelRatings = await _HotelRatingService.ReturnRatings(hotelid);
-            if (hotelRatings == null)
-            {
-                return NotFound();
-            }
+           
             return hotelRatings;
         }
     }
