@@ -1,4 +1,23 @@
 ﻿@page
 @model TravelSiteApplication.Pages.SearchPageModel
 @{
+    var longitude = HttpContext.Request.Query["longitude"];
+    var latitude = HttpContext.Request.Query["latitude"];
 }
+<h1>Search For Hotel</h1>
+<!--Search by hotel id-->
+<h2>Search by Coordinates</h2>
+
+<script type = "module">
+    displayHotelSearchByRadius(@latitude, @longitude);
+</script>
+
+<form id="searchbyCoordinates">
+ <label for="LatInp">Latitude</label>
+    <input id="LatInp" name="Latitude" type="number" step="any" required />
+    <label for="LongInp" class="form-label">Longitude</label>
+    <input id="LongInp" name="Longitude" type="number" step="any" required />
+    <input type="submit" id="submitBtn" value="Search" class="btn btn-primary" />
+</form>
+
+<div id="result"></div>

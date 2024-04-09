@@ -40,7 +40,7 @@
 <script type="module">
     displayRoomAvailResults(@CheckIn, @CheckOut);
 </script>
-
+<body>
 <form id="roomAvailForm" action="/searchResults">
     <i class="fa-solid fa-location-arrow"></i>
     <h2>Room Availability</h2>
@@ -54,9 +54,14 @@
 <div id="roomAvailabilityResults"></div>
 <div id="results">
 </div>
+</body>
+
 
 <!-- button to bring to ratings/review page -->
-<a href="/RatingPage" class="btn btn-secondary">View Ratings & Reviews</a>
+
+<a href="/RatingPage?hotelid=@Model" class="btn btn-secondary">View Ratings & Reviews</a>
+
+
 
 
 
