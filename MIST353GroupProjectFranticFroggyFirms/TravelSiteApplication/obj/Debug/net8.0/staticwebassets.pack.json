@@ -13,10 +13,6 @@
       "PackagePath": "staticwebassets\\chicago.jpg"
     },
     {
-      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
-    },
-    {
       "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -63,6 +59,38 @@
     {
       "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-org.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-org.css"
+    },
+    {
+      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-org.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-org.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-org.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-org.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-org.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-org.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-org.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-org.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-org.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-org.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-org.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-org.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-org.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-org.rtl.min.css.map"
     },
     {
       "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
@@ -133,32 +161,8 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
-    },
-    {
       "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
-    },
-    {
-      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
       "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",

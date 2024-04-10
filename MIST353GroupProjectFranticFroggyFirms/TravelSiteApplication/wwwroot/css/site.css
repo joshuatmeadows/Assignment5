@@ -1,9 +1,16 @@
 html {
   font-size: 14px;
 }
+/*i dont think this works*/
+<style >
+body {
+    background-color: lemonchiffon;
+}
+
+</style >
 
 @media (min-width: 768px) {
-  html {
+    html {
     font-size: 16px;
   }
 }

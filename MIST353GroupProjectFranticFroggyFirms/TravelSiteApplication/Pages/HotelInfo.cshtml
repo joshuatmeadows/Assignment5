@@ -5,35 +5,41 @@
     var CheckOut = HttpContext.Request.Query["EndDate"];
 
 }
+<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="TravelSiteApplication.styles.css" asp-append-version="true" />
 
-<h1>Hotel Information</h1>
+<h1 class="h1" style="text-align:center; font-size:280%"><b>Hotel Information</b></h1>
 <!--this is where the search page will bring u too
  some basic info about the hotel will go here -->
 
 <div class="hoteldetailscontainer">
-    <h2>Hotel Details</h2>
+    <table class="table">
+        <h2 class="h2" style="font-size:220%; "> <b>Hotel Details: </b></h2>
     <div class="hotel-detail">
-        <label>Name:</label>
+            <label style="font-size:145%">Name:</label>
         
     </div>
     <div class="hotel-detail">
-        <label>Address:</label>
+            <label style="font-size:145%">Address: </label>
         
     </div>
     <div class="hotel-detail">
-        <label>Phone:</label>
+            <label style="font-size:145%">Phone: </label>
        
     </div>
     <div class="hotel-detail">
-        <label>Email:</label>
+            <label style="font-size:145%">Email: </label>
         
     </div>
     <div class="hotel-detail">
-        <label>Hotel Type:</label>
+        <label style="font-size:145%">Hotel Type: </label>
         
     </div>
+    </table>
 </div>
 
+<br style="margin-bottom: 70px;">
 
 <!-- allows u to check room availability by check in and check out date -->
 
@@ -43,10 +49,10 @@
 <body>
 <form id="roomAvailForm" action="/searchResults">
     <i class="fa-solid fa-location-arrow"></i>
-    <h2>Room Availability</h2>
-    <label for="startDateInp">Start Date</label>
+        <h2 class ="h2" style="font-size:220%; "> <b>Room Availability</b></h2>
+        <label for="startDateInp" class="form-label" style="font-size:180%">Start Date</label>
     <input type="date" id="startDateInp" name="checkIn" />
-    <label for="endDateInp" class="form-label">End Date</label>
+        <label for="endDateInp" class="form-label" style="font-size:180%">End Date</label>
     <input type="date" id="endDateInp" name="checkOut" />
     <input type="submit" id="submitBtn" value="Search" class="btn btn-primary" />
 </form>
@@ -58,6 +64,7 @@
 
 
 <!-- button to bring to ratings/review page -->
+<br style="margin-bottom: 50px;">
 
 <a href="/RatingPage?hotelid=@Model" class="btn btn-secondary">View Ratings & Reviews</a>
 

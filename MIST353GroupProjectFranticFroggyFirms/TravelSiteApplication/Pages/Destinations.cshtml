@@ -2,8 +2,14 @@
 @model TravelSiteApplication.Pages.DestinationsModel
 @{
 }
-<h1 style="text-align:center;">Start Your Travels</h1>
-<h3 style="text-align:center;font-size:90%;">
+<body>
+<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="TravelSiteApplication.styles.css" asp-append-version="true" />
+
+
+    <h1 class="h1" style="text-align:center; font-size:280%"><b>Start Your Travels</b></h1>
+<h3 class="h2" style="text-align:center;font-size:175%;">
     Welcome to our destination page! Discover top travel spots worldwide.
     Start planning your next adventure today!
 </h3>
@@ -58,10 +64,10 @@
             slideIndex++;
             if (slideIndex > slides.length) { slideIndex = 1 }
             slides[slideIndex - 1].style.display = "block";
-            setTimeout(showSlides, 6000); 
+            setTimeout(showSlides, 4000); 
         }
     </script>
-<br style ="margin-bottom: 30px;">
+<br style ="margin-bottom: 68px;">
 <style>
     list-style-type: none;
     .list-container {
@@ -76,20 +82,24 @@
     }
 
     .list-item {
+        list-style: "text-align:center";
+        font-size:200%;
         padding: 10px;
         margin-bottom: 5px;
         background-color: #89CFF0;
         border-radius: 5px;
-        list-style-type: none;
+        list-style-type: none
+        
     }
 
     .list-group {
-        margin-bottom: 35px; 
+        margin-bottom: 65px; 
 </style>
 
 <div class="list-container">
-    <h2 class="list-heading" style="text-align:center;font-size:200%; ">Popular Destinations</h2>
-    <h3 class="list-heading">United States</h3>
+    <h2 class="list-heading" style="text-align:center;font-size:250%; ">Popular Destinations</h2>
+        <br style="margin-bottom: 20px;">
+        <h3 class="list-heading" style="text-align:center;font-size:250%;">United States</h3>
     <ul class="list-group">
         <li class="list-item">Orlando, Florida</li>
         <li class="list-item">New York, NY</li>
@@ -106,7 +116,7 @@
         <li class="list-item">Honolulu, Hawaii</li>
 </ul>
 
-    <h3 class="list-heading">Outside the States</h3>
+        <h3 class="list-heading" style="text-align:center;font-size:250%;">Outside the States</h3>
     <ul class="list-group">
         <li class="list-item">Rome, Italy</li>
         <li class="list-item">Sydney, Australia</li>
@@ -124,6 +134,8 @@
 </ul>
 </div>
 
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
 
 
