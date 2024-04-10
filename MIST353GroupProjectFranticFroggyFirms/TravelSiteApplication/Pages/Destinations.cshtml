@@ -2,3 +2,129 @@
 @model TravelSiteApplication.Pages.DestinationsModel
 @{
 }
+<h1 style="text-align:center;">Start Your Travels</h1>
+<h3 style="text-align:center;font-size:90%;">
+    Welcome to our destination page! Discover top travel spots worldwide.
+    Start planning your next adventure today!
+</h3>
+
+<style>
+    .slideshow-container {
+        max-width: 600px;
+        position: relative;
+        margin: auto;
+        overflow: hidden;
+        border: 12px solid #89CFF0;
+
+        
+    }
+
+    .mySlides {
+        display: none;
+    }
+
+    .slideshow-img {
+        width: 100%;
+        height: auto;
+    }
+</style>
+
+
+
+<div class="travelpic slideshow-container">
+        <div class="mySlides">
+            <img src="beach.jpg" class="slideshow-img">
+        </div>
+
+        <div class="mySlides">
+            <img src="paris.jpg" class="slideshow-img">
+        </div>
+
+        <div class="mySlides">
+            <img src="chicago.jpg" class="slideshow-img">
+        </div>
+    </div>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 6000); 
+        }
+    </script>
+<br style ="margin-bottom: 30px;">
+<style>
+    list-style-type: none;
+    .list-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    
+    .list-heading {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .list-item {
+        padding: 10px;
+        margin-bottom: 5px;
+        background-color: #89CFF0;
+        border-radius: 5px;
+        list-style-type: none;
+    }
+
+    .list-group {
+        margin-bottom: 35px; 
+</style>
+
+<div class="list-container">
+    <h2 class="list-heading" style="text-align:center;font-size:200%; ">Popular Destinations</h2>
+    <h3 class="list-heading">United States</h3>
+    <ul class="list-group">
+        <li class="list-item">Orlando, Florida</li>
+        <li class="list-item">New York, NY</li>
+        <li class="list-item">Austin, Texas</li>
+        <li class="list-item">San Francisco, California</li>
+        <li class="list-item">Chicago, Illinois</li>
+        <li class="list-item">New Orleans, Louisiana</li>
+        <li class="list-item">Seattle, Washington</li>
+        <li class="list-item">Boston, Massachusetts</li>
+        <li class="list-item">Nashville, Tennessee</li>
+        <li class="list-item">Savannah, Georgia</li>
+        <li class="list-item">San Diego, California</li>
+        <li class="list-item">Las Vegas, Nevada</li>
+        <li class="list-item">Honolulu, Hawaii</li>
+</ul>
+
+    <h3 class="list-heading">Outside the States</h3>
+    <ul class="list-group">
+        <li class="list-item">Rome, Italy</li>
+        <li class="list-item">Sydney, Australia</li>
+        <li class="list-item">Rio de Janeiro, Brazil</li>
+        <li class="list-item">Dubai, UAE</li>
+        <li class="list-item">Barcelona, Spain</li>
+        <li class="list-item">Bangkok, Thailand</li>
+        <li class="list-item">Cape Town, South Africa</li>
+        <li class="list-item">Istanbul, Turkey</li>
+        <li class="list-item">Amsterdam, Netherlands</li>
+        <li class="list-item">Prague, Czech Republic</li>
+        <li class="list-item">Paris, France</li>
+        <li class="list-item">London, UK</li>
+        <li class="list-item">Tokyo, Japan</li>
+</ul>
+</div>
+
+
+
+
+

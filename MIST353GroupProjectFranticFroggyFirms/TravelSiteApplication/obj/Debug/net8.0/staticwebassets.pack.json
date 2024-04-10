@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\TravelSiteApplication.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\beach.jpg",
+      "PackagePath": "staticwebassets\\beach.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\chicago.jpg",
+      "PackagePath": "staticwebassets\\chicago.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
       "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -243,6 +255,10 @@
     {
       "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\paris.jpg",
+      "PackagePath": "staticwebassets\\paris.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TravelSiteApplication.Microsoft.AspNetCore.StaticWebAssets.props",
