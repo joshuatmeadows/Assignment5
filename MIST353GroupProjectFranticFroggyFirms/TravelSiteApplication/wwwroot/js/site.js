@@ -34,24 +34,58 @@ async function displayHotelSearchByRadius(latitude, longitude) {
     const data = await response.json();
     var innerHtml = "";
     for (let i = 0; i < data.length; i++) {
-        innerHtml += `<div style="card"><a href="https://localhost:7146/hotel?hotelid=${data[i].HotelID}">${data[i].name}</a></div>`
-    }
+     innerHtml += `<div style="card"><a href="https://localhost:7146/hotel?hotelid=${data[i].HotelID}">${data[i].name}</a></div>`
+        }
+}
     document.getElementById("hotelResults").innerHTML = innerHtml;
     document.getElementById('hotelResults').style.visibility = "visible";
+}  catch (error) {
+    console.error("Error fetching hotel data:", error);
+   
 }
 
-}
+
+
 
 //search button on searchpage goes to hotelinfo
+//uses code above to get location and from location gets hotel
 document.getElementById('searchbyCoordinates').addEventListener('submit', function (event) {
     event.preventDefault();
+
+    console.log("Form submitted");
 
     var latitude = parseFloat(document.getElementById('LatInp').value);
     var longitude = parseFloat(document.getElementById('LongInp').value);
 
     if (!isNaN(latitude) && !isNaN(longitude)) {
-        window.location.href = `https://localhost:7146/hotelInfo?latitude=${latitude}&longitude=${longitude}`;
+        displayHotelSearchByRadius(latitude, longitude);
     } else {
         alert("Please enter valid latitude and longitude values");
     }
 });
+
+
+// get weather forcast
+<script>
+    fetch('https://localhost:7282/WeatherForecast')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+    return response.json();
+            })
+            .then(data => {
+                
+                const weatherDataElement = document.getElementById('weatherData');
+    weatherDataElement.innerHTML = ''; 
+                data.forEach(weather => {
+                    const paragraph = document.createElement('p');
+    paragraph.textContent = `Date: ${weather.date}, Temperature: ${weather.temperatureC}°C (${weather.temperatureF}°F),
+    Summary: ${weather.summary}`;
+    weatherDataElement.appendChild(paragraph);
+                });
+            })
+            .catch(error => {
+        console.error('There was a problem fetching the data:', error);
+            });
+</script>

@@ -7,7 +7,7 @@ using MIST353GroupProjectFranticFroggyFirms.Entities;
 
 namespace MIST353GroupProjectFranticFroggyFirms.Repositories
 {
-    public class HotelServiceTREY : IHotelService
+    public class HotelServiceTREY : IHotelServiceTrey
     {
         private readonly DbContextClass _dBContextClass;
         public HotelServiceTREY(DbContextClass dbContextClass)

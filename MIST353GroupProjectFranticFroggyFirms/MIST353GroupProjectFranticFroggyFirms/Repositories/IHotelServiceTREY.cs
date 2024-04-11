@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace MIST353GroupProjectFranticFroggyFirms.Repositories
 {
-    public interface IHotelService
+    public interface IHotelServiceTrey
     {
         Task<Microsoft.AspNetCore.Mvc.ActionResult<List<HotelReview>>> GetHotelReview(int hotelid);
         public Task<List<Hotel>> ReturnHotelDetails(int hotelid);
