@@ -11,12 +11,11 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-TravelSiteApplication-96d972e4-4135-43a1-9088-5b98aaaaba71")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TravelSiteApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bace0480d1bed8dc46c7de780628e6aec8837d9b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("TravelSiteApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TravelSiteApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
