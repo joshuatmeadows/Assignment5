@@ -265,6 +265,10 @@
       "PackagePath": "staticwebassets\\paris.jpg"
     },
     {
+      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\world.jpg",
+      "PackagePath": "staticwebassets\\world.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TravelSiteApplication.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
