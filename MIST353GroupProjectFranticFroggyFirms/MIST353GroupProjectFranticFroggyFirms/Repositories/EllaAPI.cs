@@ -24,7 +24,7 @@ namespace MIST353GroupProjectFranticFroggyFirms.Repositories
             return hotelDetails;
         }
 
-        public async Task<List<RoomAvail>> spRoomGetAvailabilityByDateRange(DateTime StartDate, DateTime EndDate)
+        public async Task<List<Entities.RoomAvail>> spRoomGetAvailabilityByDateRange(DateTime StartDate, DateTime EndDate)
         {
             var Startdateparam = new SqlParameter("@StartDate", StartDate);
             var Enddateparam = new SqlParameter("@EndDate", EndDate);

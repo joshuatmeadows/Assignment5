@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MIST353GroupProjectFranticFroggyFirms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+baeadeb28e7a6a21965a751e66194c7edf034b7e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MIST353GroupProjectFranticFroggyFirms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MIST353GroupProjectFranticFroggyFirms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

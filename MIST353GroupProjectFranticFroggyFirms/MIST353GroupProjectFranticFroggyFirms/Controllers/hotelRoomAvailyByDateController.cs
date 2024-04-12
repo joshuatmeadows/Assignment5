@@ -1,28 +1,28 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Hosting;
-using   MIST353GroupProjectFranticFroggyFirms.Entities;
+using MIST353GroupProjectFranticFroggyFirms.Entities;
 using MIST353GroupProjectFranticFroggyFirms.Repositories;
 
-namespace TravelCreation.Controllers
+namespace MIST353GroupProjectFranticFroggyFirms.Controllers
+
 {
     [Route("api/[controller]")]
     [ApiController]
     public class hotelRoomAvailyByDateController : Controller
-   {
-       private readonly IHotelService hotelService;
-        public hotelRoomAvailyByDateController(IHotelService hotelService)
+    {
+        private readonly IRoomAvail hotelService;
+        public hotelRoomAvailyByDateController(IRoomAvail hotelService)
         {
             this.hotelService = hotelService;
-       }
-       [HttpGet("{gethotelRoomAvailyByDate}")]
-        public async Task<List<Hotel>> gethotelRoomAvailyByDate(int hotelid)
+        }
+        [HttpGet("{gethotelRoomAvailyByDate}")]
+        public async Task<List<Hotel>> HotelGetRoomAvailyByDate(int hotelid)
         {
-            var hotelRoomAvailyByDate = await hotelService.hotelRoomAvailyByDate(hotelid);
-           if (hotelRoomAvailyByDate == null)
+            var hotelRoomAvailyByDate = await hotelService.RoomGetAvailyByDate(hotelid);
+            if (hotelRoomAvailyByDate == null)
             {
-           //   return NotFound();
+                //          return NotFound();
             }
-           return hotelRoomAvailyByDate;
+            return hotelRoomAvailyByDate;
 
         }
 

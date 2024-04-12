@@ -25,7 +25,7 @@ namespace MIST353GroupProjectFranticFroggyFirms.Controllers
 
         }
         [HttpGet("RoomGetAvailabilityByDateRange/StartDate={StartDate}&EndDate={EndDate}")]
-        public async Task<List<RoomAvail>> spRoomGetAvailabilityByDateRange(DateTime StartDate, DateTime EndDate)
+        public async Task<List<Entities.RoomAvail>> spRoomGetAvailabilityByDateRange(DateTime StartDate, DateTime EndDate)
         {
             var RoomAvail = await hotelservice.spRoomGetAvailabilityByDateRange(StartDate, EndDate);
             if (RoomAvail == null)

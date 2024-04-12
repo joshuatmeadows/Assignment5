@@ -9,7 +9,7 @@ namespace MIST353GroupProjectFranticFroggyFirms.Repositories
         {
             throw new NotImplementedException();
         }
-        public Task<List<RoomAvail>> spRoomGetAvailabilityByDateRange(DateTime StartDate, DateTime EndDate)
+        public Task<List<Entities.RoomAvail>> spRoomGetAvailabilityByDateRange(DateTime StartDate, DateTime EndDate)
         {
             throw new NotImplementedException();
         }
