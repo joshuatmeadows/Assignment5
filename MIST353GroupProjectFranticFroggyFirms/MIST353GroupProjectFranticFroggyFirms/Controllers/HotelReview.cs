@@ -15,7 +15,8 @@ namespace MIST353GroupProjectFranticFroggyFirms.Controllers
             _hotelService = hotelService;
         }
         [HttpGet("{hotelid}")]
-        public async Task<ActionResult<List<HotelReviewController>>> GetHotelReview(int hotelid)
+        // Output should be entitiy not controller
+        public async Task<ActionResult<List<HotelReview>>> GetHotelReview(int hotelid)
         {
             var HotelReview = await _hotelService.GetHotelReview(hotelid);
             return HotelReview;

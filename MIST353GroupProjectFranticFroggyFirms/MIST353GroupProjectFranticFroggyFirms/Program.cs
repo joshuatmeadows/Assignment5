@@ -19,7 +19,19 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+// allow cros-site scripting
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowMyRazorPagesApp",
+        builder =>
+        {
+            builder.WithOrigins("https://localhost:7141")
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+        }
 
+        );
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -30,6 +42,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors("AllowMyRazorPagesApp");
 
 app.UseAuthorization();
 

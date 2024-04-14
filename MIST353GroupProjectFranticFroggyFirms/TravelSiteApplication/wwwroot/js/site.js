@@ -39,16 +39,15 @@ async function displayHotelSearchByRadius(latitude, longitude) {
 }
     document.getElementById("hotelResults").innerHTML = innerHtml;
     document.getElementById('hotelResults').style.visibility = "visible";
-}  catch (error) {
-    console.error("Error fetching hotel data:", error);
-   
-}
+} //Not sure what you are trying to do with catch but it is wrong syntax.
 
 
 
 
 //search button on searchpage goes to hotelinfo
 //uses code above to get location and from location gets hotel
+// Need to be in a function.
+async function checkCoords() {
 document.getElementById('searchbyCoordinates').addEventListener('submit', function (event) {
     event.preventDefault();
 
@@ -62,30 +61,28 @@ document.getElementById('searchbyCoordinates').addEventListener('submit', functi
     } else {
         alert("Please enter valid latitude and longitude values");
     }
-});
+});}
 
 
 // get weather forcast
-<script>
+// This is a JS file, not HTML. This should be a function, not a script.
+async function getWeatherForecast() {
     fetch('https://localhost:7282/WeatherForecast')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-    return response.json();
-            })
-            .then(data => {
-                
-                const weatherDataElement = document.getElementById('weatherData');
-    weatherDataElement.innerHTML = ''; 
-                data.forEach(weather => {
-                    const paragraph = document.createElement('p');
-    paragraph.textContent = `Date: ${weather.date}, Temperature: ${weather.temperatureC}°C (${weather.temperatureF}°F),
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+
+            const weatherDataElement = document.getElementById('weatherData');
+            weatherDataElement.innerHTML = '';
+            data.forEach(weather => {
+                const paragraph = document.createElement('p');
+                paragraph.textContent = `Date: ${weather.date}, Temperature: ${weather.temperatureC}°C (${weather.temperatureF}°F),
     Summary: ${weather.summary}`;
-    weatherDataElement.appendChild(paragraph);
-                });
-            })
-            .catch(error => {
-        console.error('There was a problem fetching the data:', error);
+                weatherDataElement.appendChild(paragraph);
             });
-</script>
+        });
+} // improper syntax for catch.

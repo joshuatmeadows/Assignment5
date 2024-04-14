@@ -9,15 +9,16 @@ namespace MIST353GroupProjectFranticFroggyFirms.Controllers
     [ApiController]
     public class hotelRoomAvailyByDateController : Controller
     {
-        private readonly IRoomAvail hotelService;
-        public hotelRoomAvailyByDateController(IRoomAvail hotelService)
+        // You had the wrong name here
+        private readonly IHotelRoomAvail hotelService;
+        public hotelRoomAvailyByDateController(IHotelRoomAvail hotelService)
         {
             this.hotelService = hotelService;
         }
         [HttpGet("{gethotelRoomAvailyByDate}")]
         public async Task<List<Hotel>> HotelGetRoomAvailyByDate(int hotelid)
         {
-            var hotelRoomAvailyByDate = await hotelService.RoomGetAvailyByDate(hotelid);
+            var hotelRoomAvailyByDate = await hotelService.GetHotelRoomAvail(hotelid);
             if (hotelRoomAvailyByDate == null)
             {
                 //          return NotFound();
